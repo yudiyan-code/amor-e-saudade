@@ -93,13 +93,24 @@ footer {
     font-family: var(--fonte1);
 }
 
-a {
+footer a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
-a:hover {
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
     color: white;
     text-decoration: underline;
 }
