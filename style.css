@@ -63,15 +63,13 @@ section.imagem {
 }
 
 section.imagem > p {
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.356);
     color: white;
     padding: 15px;
     padding-left: 30px;
     border-radius: 15px;
     width: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 section#img01 {
