@@ -76,10 +76,12 @@ section.imagem > p {
 
 section#img01 {
     background-image: url('imagens/flor.jpg');
+    background-position: center center;
 }
 
 section#img02 {
     background-image: url('imagens/coracao.jpg');
+    background-position: center center;
 }
 
 footer {
