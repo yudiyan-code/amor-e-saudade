@@ -25,14 +25,16 @@ header {
    background-color: black;
    color: white;
    text-align: center;
-   padding: 30px;
+   padding-top: 20px;
+   padding-bottom: 20px;
 }
 
-h1 {
+header > h1 {
+    font-size: 90px;
     font-family: var(--fonte2);
-    font-size: 60px;
+    font-weight: normal;
     font-variant: small-caps;
-}
+｝
 
 a {
     color: white;
@@ -45,34 +47,40 @@ a:hover {
 }
 
 section {
-    padding-left: 50px;
-    font-family: var(--fonte3);
-    font-size: 35px;
+    padding-top: 5vh;
+    padding-bottom:5vh;
+    padding-left: 40px;
 }
 
-section.normal > p {
-    padding-top: 90px;
-    padding-bottom: 90px;
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section > p {
+   font-family: var(--fonte3);
+   font-size: 170%;
+   max-width: 400px;
 }
 
 section.imagem {
-    background-color: rgb(109, 109, 109);
-    padding: 40px;
+    background-color: rgbale, 0, 0, 0.397);
+    color: white;
+    background-attachment: fixed;
+    box-shadow: inset 3px 3px 8px
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.336);
 }
 
-section.imagem > p {
+section. imagem > p {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.356);
-    color: white;
-    padding: 15px;
-    padding-left: 30px;
+    background-color: rgba(0, 0, 0, 0.418); 
+    color: white; 
+    width: 300px; 
     border-radius: 15px;
-    width: 500px;
-}
+    text-shadow: 1px 1px 10px black; padding: 5px;
+    background-size: cover;
+｝
 
 section#img01 {
     background-image: url('imagens/flor.jpg');
