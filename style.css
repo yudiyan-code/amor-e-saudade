@@ -4,28 +4,30 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
+
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
-:root {
+:root { 
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: "Passion One", sans-serif;
     --fonte3: "Sriracha", cursive;
 }
 
 html, body {
-   background-color: rgb(255, 255, 255);
-   font-family: var(--fonte1);
+    background-color: rgb(255, 255, 255);
+    font-family: var(--fonte1);
 }
 
 header {
-   background-color: black;
-   color: white;
-   text-align: center;
-   padding-top: 20px;
-   padding-bottom: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 header > h1 {
@@ -33,16 +35,6 @@ header > h1 {
     font-family: var(--fonte2);
     font-weight: normal;
     font-variant: small-caps;
-｝
-
-a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-a:hover {
-    text-decoration: underline;
 }
 
 section {
@@ -57,29 +49,31 @@ section.normal {
 }
 
 section > p {
-   font-family: var(--fonte3);
-   font-size: 170%;
-   max-width: 400px;
+    font-family: var(--fonte3);
+    font-size: 170%;
+    max-width: 400px;
 }
 
 section.imagem {
-    background-color: rgbale, 0, 0, 0.397);
+    background-color: rgba(0, 0, 0, 0.397);
     color: white;
     background-attachment: fixed;
-    box-shadow: inset 3px 3px 8px
+    box-shadow: inset 3px 3px 8px rgba(0, 0, 0, 0.534);
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
-section. imagem > p {
+section.imagem > p {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.418); 
-    color: white; 
-    width: 300px; 
+    background-color: rgba(0, 0, 0, 0.418);
+    color: white;
+    width: 300px;
     border-radius: 15px;
-    text-shadow: 1px 1px 10px black; padding: 5px;
+    text-shadow: 1px 1px 10px black;
+    padding: 5px;
     background-size: cover;
-｝
+}
 
 section#img01 {
     background-image: url('imagens/flor.jpg');
@@ -88,14 +82,24 @@ section#img01 {
 
 section#img02 {
     background-image: url('imagens/coracao.jpg');
-    background-position: center center;
+
 }
 
 footer {
     background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
     color: white;
     font-family: var(--fonte1);
-    padding: 10px;
-    font-size: 20px;
-    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
 }
