@@ -15,8 +15,10 @@
     --fonte3: "Sriracha", cursive;
 }
 
-body {
-    font-family: var(--fonte1);
+html, body {
+   background-color: rgb(255, 255, 255);
+   font-family: var(--fonte1);
+   width: 98%;
 }
 
 header {
